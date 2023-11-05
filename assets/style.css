@@ -1,0 +1,8 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#check-result {
+  margin-top: 25px;
+}
