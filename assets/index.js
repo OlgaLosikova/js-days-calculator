@@ -45,14 +45,14 @@ const numberOfDays = () => {
       days = "дней";
   }
 
-  checkResult.innerText = `До вашего дня рождения осталось ${Math.abs(
+  checkResult.textContent = `До вашего дня рождения осталось ${Math.abs(
     difference
   )} ${days}`;
   checkResult.style.color = "black";
 
   //Проверка пустого значения
   if (birthdayInput.value == "") {
-    checkResult.innerText = `Введите дату рождения`;
+    checkResult.textContent = `Введите дату рождения`;
     checkResult.style.color = "red";
   }
 };
